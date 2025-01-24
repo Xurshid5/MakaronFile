@@ -1,0 +1,51 @@
+.images {
+	margin-bottom: 11px;
+
+	@media (min-width: $tablet-width) {
+		width: 50%;
+		margin-bottom: 0;
+		margin-right: 30px;
+		height: auto;
+	}
+}
+
+.product__text {
+	font-size: 14px;
+}
+
+.images__photo {
+	width: 288px;
+	height: 227px;
+	margin-bottom: 8px;
+
+	@media (min-width: $tablet-width) {
+		width: 326px;
+		height: 257px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 570px;
+		height: 450px;
+	}
+}
+
+.images__column {
+	margin-bottom: 0;
+}
+
+.images__photo--add {
+	width: 36px;
+	height: 36px;
+	margin: 0;
+	margin-right: 6px;
+
+	@media (min-width: $tablet-width) {
+		width: 60px;
+		height: 60px;
+	}
+
+	@media (min-width: $tablet-width) {
+		width: 71px;
+		height: 71px;
+	}
+}

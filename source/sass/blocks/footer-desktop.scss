@@ -1,0 +1,127 @@
+.footer-desktop__container {
+	display: none;
+
+	@media (min-width: $desktop-width) {
+		display: flex;
+		justify-content: space-between;
+		padding-top: 58px;
+		padding-bottom: 69px;
+	}
+}
+
+.footer-desktop__features {
+	display: grid;
+	grid-template-columns: 140px 140px 140px;
+	margin-bottom: 28px;
+	text-align: center;
+	width: 375px;
+}
+
+.footer-desktop__text {
+	margin: 0;
+	text-align: center;
+	padding-top: 50px;
+	position: relative;
+}
+
+.footer-desktop__text--love {
+	&::before {
+		content: "";
+		background-image: url("../img//icon//icon-love-desktop.svg");
+		background-repeat: no-repeat;
+		width: 45px;
+		height: 39px;
+		position: absolute;
+		top: 0px;
+		right: 47px;
+	}
+}
+
+.footer-desktop__text--delivery {
+	margin-left: -50px;
+	&::before {
+		content: "";
+		background-image: url("../img//icon//icon-delivery-desktop.svg");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 34px;
+		position: absolute;
+		top: 0px;
+		top: 1px;
+		right: 71px;
+	}
+}
+
+.footer-desktop__text--nut {
+	margin-left: -103px;
+	&::before {
+		content: "";
+		background-image: url("../img//icon//icon-nut.svg");
+		background-repeat: no-repeat;
+		width: 25px;
+		height: 33px;
+		position: absolute;
+		top: 0px;
+		top: 1px;
+		right: 109px;
+	}
+}
+
+.footer-desktop__copyright {
+	margin: 0;
+}
+
+.footer-desktop__information {
+	display: flex;
+	margin-left: 13px;
+	flex-wrap: wrap;
+}
+
+.footer-desktop__caption {
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 19px;
+}
+
+.footer-desktop__points {
+	width: 172px;
+	margin-right: 30px;
+}
+
+.footer-desktop__point {
+	font-size: 14px;
+	color: $text;
+	display: block;
+	margin-bottom: 12px;
+}
+
+.footer-desktop__contacts {
+	text-align: right;
+	margin-bottom: 70px;
+	padding-top: 2px;
+}
+
+.footer-desktop__phone {
+	font-size: 18px;
+	font-weight: 600;
+	color: $text;
+}
+
+.footer-desktop__time {
+	margin: 0;
+	font-size: 14px;
+	padding-top: 5px;
+}
+
+.footer-desktop__social {
+	text-align: right;
+}
+
+.footer-desktop__icon {
+	margin-left: 14px;
+
+	&:hover path {
+		fill: $accent-pink;
+	}
+}

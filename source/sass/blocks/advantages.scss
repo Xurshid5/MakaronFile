@@ -1,0 +1,146 @@
+.advantages {
+	margin-bottom: 37px;
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 70px;
+	}
+}
+
+.advantages__caption {
+	font-family: "Montserrat";
+	font-size: 18px;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 18px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 30px;
+		margin-bottom: 42px;
+	}
+}
+
+.advantages__list {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 7px;
+	row-gap: 0px;
+
+	@media (min-width: $tablet-width) {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
+	@media (min-width: $desktop-width) {
+		display: flex;
+		padding-bottom: 80px;
+		flex-wrap: wrap;
+	}
+}
+
+.advantages__item {
+	margin-bottom: 18px;
+
+	@media (min-width: $tablet-width) {
+		text-align: center;
+	}
+
+	@media (min-width: $desktop-width) {
+		text-align: left;
+		margin-right: 29px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.advantages__item--ingredients {
+	background-image: url(../img/advantages-photo-1.jpg);
+	background-repeat: no-repeat;
+
+	@media (min-width: $tablet-width) {
+		background-position: 20px 0;
+	}
+
+	@media (min-width: $desktop-width) {
+		background-image: url(../img/advantages-photo-1-desktop.jpg);
+		width: 270px;
+		height: 270px;
+		background-position: 0px 0;
+	}
+}
+
+.advantages__item--packaging {
+	background-image: url(../img/advantages-photo-2.jpg);
+	background-repeat: no-repeat;
+
+	@media (min-width: $tablet-width) {
+		background-position: 20px 0;
+	}
+
+	@media (min-width: $desktop-width) {
+		background-image: url(../img/advantages-photo-2-desktop.jpg);
+		width: 270px;
+		height: 270px;
+		background-position: 0px 0;
+	}
+}
+
+.advantages__item--receiving {
+	background-image: url(../img/advantages-photo-3.jpg);
+	background-repeat: no-repeat;
+
+	@media (min-width: $tablet-width) {
+		background-position: 20px 0;
+	}
+
+	@media (min-width: $desktop-width) {
+		background-image: url(../img/advantages-photo-3-desktop.jpg);
+		width: 270px;
+		height: 270px;
+		background-position: 0px 0;
+	}
+}
+
+.advantages__item--delivery {
+	background-image: url(../img/advantages-photo-4.jpg);
+	background-repeat: no-repeat;
+
+	@media (min-width: $tablet-width) {
+		background-position: 20px 0;
+	}
+
+	@media (min-width: $desktop-width) {
+		background-image: url(../img/advantages-photo-4-desktop.jpg);
+		width: 270px;
+		height: 270px;
+		background-position: 0px 0;
+	}
+}
+
+.advantages__title {
+	font-family: "Montserrat";
+	font-size: 12px;
+	margin: 0;
+	margin-bottom: 5px;
+	padding-top: 158px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 18px;
+		padding-top: 299px;
+		margin-bottom: 10px;
+	}
+}
+
+.advantages__text {
+	font-size: 10px;
+	margin: 0;
+
+	@media (min-width: $tablet-width) {
+		padding: 0 22px;
+	}
+
+	@media (min-width: $desktop-width) {
+		font-size: 14px;
+		padding: 0;
+	}
+}

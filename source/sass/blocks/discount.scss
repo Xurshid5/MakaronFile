@@ -1,0 +1,256 @@
+.discount {
+	@media (min-width: $desktop-width) {
+		margin-bottom: 93px;
+	}
+}
+
+.discount__list {
+	margin-bottom: 22px;
+
+	@media (min-width: $tablet-width) {
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
+.discount__caption {
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+	margin-bottom: 17px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 30px;
+		margin-bottom: 51px;
+	}
+}
+
+.discount__item {
+	border-radius: 5px;
+	text-align: center;
+	&:first-child {
+		background-color: #51b36e;
+	}
+
+	&:nth-child(2) {
+		background-color: #fab2d6;
+	}
+
+	&:nth-child(3) {
+		background-color: #7ea2cc;
+	}
+
+	&:nth-child(4) {
+		background-color: #f29c36;
+	}
+
+	@media (min-width: $tablet-width) {
+		margin-right: 38px;
+		max-width: 148px;
+		display: flex;
+		flex-direction: column;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-right: 29px;
+		min-width: 270px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.discount__item--disabled {
+	display: none;
+
+	@media (min-width: $tablet-width) {
+		display: block;
+	}
+}
+
+.discount__item--tablet {
+	@media (min-width: $tablet-width) {
+		display: block;
+	}
+}
+
+.discount__link {
+	@media (min-width: $tablet-width) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.discount__image {
+	@media (min-width: $desktop-width) {
+		padding-bottom: 0px;
+	}
+}
+
+.discount__image--1 {
+	margin-bottom: -127px;
+
+	@media (min-width: $tablet-width) {
+		width: 148px;
+		height: 173px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 270px;
+		height: 316px;
+		margin-bottom: -127px;
+	}
+}
+
+.discount__image--2 {
+	margin-bottom: -127px;
+
+	@media (min-width: $tablet-width) {
+		width: 148px;
+		height: 173px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 270px;
+		height: 270px;
+		margin-bottom: -81px;
+	}
+}
+
+.discount__image--3 {
+	margin-bottom: -127px;
+
+	@media (min-width: $tablet-width) {
+		width: 148px;
+		height: 173px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 270px;
+		height: 292px;
+		margin-bottom: -103px;
+	}
+}
+
+.discount__image--4 {
+	margin-bottom: -127px;
+
+	@media (min-width: $tablet-width) {
+		width: 148px;
+		height: 173px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 246px;
+		height: 215px;
+		position: relative;
+		top: 43px;
+		margin-bottom: -26px;
+	}
+}
+
+.discount__column {
+	background-color: #5aaf57;
+	position: relative;
+
+	@media (min-width: $tablet-width) {
+		top: 70px;
+		display: flex;
+		flex-direction: column;
+		min-height: 115px;
+	}
+
+	@media (min-width: $desktop-width) {
+		min-height: 195px;
+		top: 11px;
+	}
+}
+
+.discount__text {
+	color: $white;
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin: 0;
+	padding-top: 93px;
+
+	@media (min-width: $tablet-width) {
+		padding-top: 20px;
+	}
+
+	@media (min-width: $desktop-width) {
+		font-size: 16px;
+		margin-bottom: -5px;
+		padding-bottom: 0px;
+		padding-top: 84px;
+	}
+}
+
+.discount__text--description {
+	font-family: "Montserrat";
+	font-size: 18px;
+	text-transform: none;
+	margin: 0;
+	padding-top: 9px;
+	padding-bottom: 54px;
+
+	@media (min-width: $tablet-width) {
+		padding-top: 10px;
+		font-size: 12px;
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	@media (min-width: $desktop-width) {
+		font-size: 17px;
+		margin-bottom: 3px;
+		padding-bottom: 0px;
+	}
+}
+
+.discount__slider {
+	margin-bottom: 61px;
+	text-align: center;
+
+	@media (min-width: $tablet-width) {
+		padding-top: 75px;
+		text-align: right;
+	}
+
+	@media (min-width: $desktop-width) {
+		padding-top: 10px;
+	}
+}
+
+.discount__button {
+	background-color: $white;
+	border: none;
+	width: 12px;
+	height: 12px;
+	margin-right: 10px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-right: 6px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.discount__button--active {
+	background-color: $accent-pink;
+	outline: none;
+}

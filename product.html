@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="initial-scale=1.0 user-scalable =no">
+  <title>Интернет-магазин десертов Macaronshop</title>
+  <link rel="stylesheet" href="source/css/style.css">
+
+  <link rel="icon" href="source/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="source/img/favicon-32.svg" type="image/svg+xml" sizes="32x32">
+  <link rel="icon" href="source/img/favicon-16.svg" type="image/svg+xml" sizes="16x16">
+  <link rel="icon" href="source/img/favicon-152.svg" sizes="152x152">
+</head>
+
+<body class="page__body">
+
+  <header class="page-header  page-header--product">
+    <nav class="mobile-nav  container">
+      <button class="mobile-nav__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+
+      <a href="#">
+        <img class="mobile-nav__logo" src="source/img/logotype.svg" width="54" height="50"
+          alt="Логотип интернет-магазина Macaronshop">
+      </a>
+
+      <div class="mobile-nav__basket">
+        <span class="visually-hidden">Перейти в корзину</span>
+      </div>
+    </nav>
+
+    <div class="promo">
+      <div class="promo__container  container">
+        <button class="promo__slider  promo__slider--left"></button>
+        <p class="promo__text">МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ</p>
+        <button class="promo__slider  promo__slider--right"></button>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <div class="main-nav__container  container">
+        <ul class="main-nav__list  main-nav__list--catalog">
+          <li class="main-nan__item  main-nan__item--catalog">
+            <a class="main-nan__link" href="blank.html">Свадебные предложения</a>
+          </li>
+          <li class="main-nan__item  main-nan__item--catalog">
+            <a class="main-nan__link" href="blank.html">Наборы с печатью</a>
+          </li>
+          <li class="main-nan__item  main-nan__item--catalog">
+            <a class="main-nan__link" href="blank.html">Гарантии вкуса и свежести</a>
+          </li>
+          <li class="main-nan__item  main-nan__item--catalog">
+            <a class="main-nan__link" href="blank.html">Доставка и оплата</a>
+          </li>
+          <li class="main-nan__item  main-nan__item--catalog  main-nan__item--contacts">
+            <a class="main-nan__link" href="blank.html">Контакты</a>
+          </li>
+          <li class="main-nan__item  main-nan__item--phone">
+            <a class="main-nav__phone" href="tel:8123098288">8 812 309-82-88</a>
+          </li>
+          <li>
+            <a href="blank.html">
+              <p class="main-nav__basket">В корзине (4 товара)</p>
+            </a>
+          </li>
+        </ul>
+        <ul class="main-nav__list main-nav__list--social">
+          <li class="main-nan__item  main-nan__item--social">
+            <a class="main-nav__icon" href="https://www.instagram.com/">
+              <span class="visually-hidden">Мы в Инстаграм</span>
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.2759 5.13086H9.3787C7.03644 5.13086 5.13086 7.03653 5.13086 9.37879V16.276C5.13086 18.6184 7.03644 20.5239 9.3787 20.5239H16.2759C18.6184 20.5239 20.5239 18.6183 20.5239 16.276V9.37879C20.524 7.03653 18.6184 5.13086 16.2759 5.13086ZM19.1583 16.276C19.1583 17.8653 17.8653 19.1582 16.276 19.1582H9.3787C7.78952 19.1583 6.49661 17.8653 6.49661 16.276V9.37879C6.49661 7.78961 7.78952 6.49661 9.3787 6.49661H16.2759C17.8652 6.49661 19.1582 7.78961 19.1582 9.37879V16.276H19.1583Z"
+                  fill="black" />
+                <path
+                  d="M12.8277 8.86084C10.6406 8.86084 8.86133 10.6401 8.86133 12.8272C8.86133 15.0143 10.6406 16.7935 12.8277 16.7935C15.0148 16.7935 16.7941 15.0143 16.7941 12.8272C16.7941 10.6401 15.0148 8.86084 12.8277 8.86084ZM12.8277 15.4276C11.3938 15.4276 10.2271 14.2611 10.2271 12.8272C10.2271 11.3931 11.3937 10.2265 12.8277 10.2265C14.2618 10.2265 15.4284 11.3931 15.4284 12.8272C15.4284 14.2611 14.2617 15.4276 12.8277 15.4276Z"
+                  fill="black" />
+                <path
+                  d="M16.9605 7.70312C16.6974 7.70312 16.4389 7.80965 16.2531 7.99631C16.0663 8.18205 15.959 8.44063 15.959 8.70467C15.959 8.9679 16.0664 9.22639 16.2531 9.41304C16.4388 9.59878 16.6974 9.70622 16.9605 9.70622C17.2246 9.70622 17.4823 9.59878 17.6689 9.41304C17.8556 9.22639 17.9621 8.96781 17.9621 8.70467C17.9621 8.44063 17.8556 8.18205 17.6689 7.99631C17.4832 7.80965 17.2246 7.70312 16.9605 7.70312Z"
+                  fill="black" />
+              </svg>
+            </a>
+          </li>
+          <li class="main-nan__item  main-nan__item--social">
+            <a class="main-nav__icon" href="facebook.com">
+              <span class="visually-hidden">Мы на Фейсбук</span>
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.0527 13.3299H13.7637V21.7154H10.2958V13.3299H8.64648V10.3829H10.2958V8.4758C10.2958 7.11205 10.9436 4.97656 13.7946 4.97656L16.3634 4.98731V7.84789H14.4996C14.1939 7.84789 13.764 8.00064 13.764 8.65119V10.3856H16.3556L16.0527 13.3299Z"
+                  fill="black" />
+              </svg>
+            </a>
+          </li>
+          <li class="main-nan__item  main-nan__item--social">
+            <a class="main-nav__icon" href="https://vk.com">
+              <span class="visually-hidden">Мы Вконтакте</span>
+              <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12.343 18.4535H13.3498C13.3498 18.4535 13.6539 18.4202 13.8092 18.2528C13.9521 18.0991 13.9475 17.8105 13.9475 17.8105C13.9475 17.8105 13.9278 16.4596 14.5548 16.2607C15.1729 16.0647 15.9666 17.5663 16.8078 18.1437C17.444 18.5807 17.9274 18.4849 17.9274 18.4849L20.1768 18.4535C20.1768 18.4535 21.3535 18.3811 20.7955 17.4559C20.7498 17.3802 20.4706 16.7715 19.1231 15.5207C17.7127 14.2116 17.9015 14.4234 19.6005 12.1589C20.6352 10.7798 21.0489 9.93789 20.9197 9.57728C20.7964 9.23383 20.0354 9.32461 20.0354 9.32461L17.5028 9.34039C17.5028 9.34039 17.315 9.31478 17.1758 9.39801C17.0397 9.47964 16.9521 9.66989 16.9521 9.66989C16.9521 9.66989 16.5513 10.7371 16.0167 11.6446C14.8889 13.5597 14.438 13.6608 14.2537 13.5419C13.8249 13.2647 13.9319 12.4285 13.9319 11.8344C13.9319 9.97859 14.2134 9.20479 13.3838 9.00448C13.1085 8.93794 12.9059 8.89404 12.2019 8.88695C11.2982 8.87757 10.5333 8.88969 10.1002 9.10189C9.81212 9.24298 9.58985 9.55739 9.72522 9.57546C9.89261 9.59786 10.2717 9.67767 10.4727 9.95138C10.7323 10.3044 10.7231 11.0974 10.7231 11.0974C10.7231 11.0974 10.8722 13.2821 10.3749 13.5535C10.0335 13.7396 9.56516 13.3596 8.55973 11.6222C8.04455 10.7323 7.65559 9.74855 7.65559 9.74855C7.65559 9.74855 7.58059 9.56471 7.44682 9.46638C7.28447 9.34725 7.05763 9.30929 7.05763 9.30929L4.65095 9.32507C4.65095 9.32507 4.28966 9.33513 4.15704 9.49222C4.03905 9.63194 4.14766 9.92097 4.14766 9.92097C4.14766 9.92097 6.03185 14.3291 8.16528 16.5506C10.1215 18.5873 12.343 18.4535 12.343 18.4535Z"
+                  fill="black" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main-nav__wrapper">
+        <div class="container">
+          <ul class="main-nav__list main-nav__list--menu">
+            <li class="main-nan__item  main-nan__item--menu">
+              <a href="blank.html" class="main-nan__link">Готовые наборы</a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu">
+              <a href="blank.html" class="main-nan__link">Собрать свой набор</a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu  main-nan__item--sale">
+              <a href="blank.html" class="main-nan__link">Акции</a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu  main-nan__item--logo">
+              <a href="#">
+                <img class="main-nav__logo" src="source/img/logotype-desktop.svg" width="124" height="124"
+                  alt="Логотип интернет-магазина Macaronshop">
+              </a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu">
+              <a href="blank.html" class="main-nan__link">Каталог десертов</a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu">
+              <a href="blank.html" class="main-nan__link">Корпоративные подарки</a>
+            </li>
+            <li class="main-nan__item  main-nan__item--menu">
+              <a href="blank.html" class="main-nan__link">Оптовикам</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+  </header>
+
+  <main class="container">
+
+    <h1 class="visually-hidden">Готовый набор "Сердце" в интернет-магазине десертов из натуральных ингридиентов
+      Macaronshop</h1>
+
+    <nav class="bread-nav">
+      <ul class="bread__list">
+        <li class="bread__item"><a class="bread__link" href="">Главная</a></li>
+        <li class="bread__item"><a class="bread__link" href="">Готовые наборы</a></li>
+        <li class="bread__item"><a class="bread__link  bread__link--active" href="">Сердце</a></li>
+      </ul>
+    </nav>
+
+    <section class="product">
+      <h2 class="visually-hidden">Описание набора "Сердце"</h2>
+      <p class="product__caption">Сердце</p>
+      <p class="product__text">40 макаронс в круглой коробке с персональной надписью</p>
+
+      <div class="product__column">
+
+        <section class="images">
+          <h2 class="visually-hidden">Изображения набора "Сердце"</h2>
+          <picture>
+            <source media="(min-width: 1200px)" srcset="source/img/product-main-photo-desktop.jpg 1x">
+            <source media="(min-width: 768px)" srcset="source/img/product-main-photo-tablet.jpg 1x">
+            <img class="images__photo" src="source/img/product-main-photo.jpg" alt="" width="288" height="227">
+          </picture>
+          <div class="images__column">
+            <picture>
+              <source media="(min-width: 1200px)" srcset="source/img/product-add-photo-desktop.jpg 1x">
+              <source media="(min-width: 768px)" srcset="source/img/product-add-photo-tablet.jpg 1x">
+              <img class="images__photo  images__photo--add" src="source/img/product-add-photo.jpg" alt="" width="36"
+                height="36">
+            </picture>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="source/img/product-add-photo-desktop.jpg 1x">
+              <source media="(min-width: 768px)" srcset="source/img/product-add-photo-tablet.jpg 1x">
+              <img class="images__photo  images__photo--add" src="source/img/product-add-photo.jpg" alt="" width="36"
+                height="36">
+            </picture>
+            <picture>
+              <source media="(min-width: 1200px)" srcset="source/img/product-add-photo-desktop.jpg 1x">
+              <source media="(min-width: 768px)" srcset="source/img/product-add-photo-tablet.jpg 1x">
+              <img class="images__photo  images__photo--add" src="source/img/product-add-photo.jpg" alt="" width="36"
+                height="36">
+            </picture>
+          </div>
+        </section>
+
+        <section class="text">
+
+          <div class="text__start">
+            <p class="text__caption">Сердце</p>
+            <p class="text__description">40 макаронс в круглой коробке с персональной надписью</p>
+          </div>
+
+          <div class="text__buy">
+            <p class="text__price">2800 руб</p>
+            <button class="text__basket">В корзину</button>
+          </div>
+
+          <div class="text__taste">
+            <button class="text__button  text__button--active">Вкусы:</button>
+            <dl class="text__list">
+              <dt class="text__item">Яблоко</dt>
+              <dd class="text__item  text__item--right">4 шт.</dd>
+              <dt class="text__item">Вишня</dt>
+              <dd class="text__item  text__item--right">12 шт.</dd>
+              <dt class="text__item">Кокос</dt>
+              <dd class="text__item  text__item--right">8 шт.</dd>
+            </dl>
+            <button class="text__button  text__button--absence">Состав и пищевая ценность</button>
+            <button class="text__button  text__button--absence">Условия и срок хранения</button>
+          </div>
+
+
+          <!--<div class="text__taste">
+            <button class="text__button">Вкусы:</button>
+            <dl class="text">
+              <div class="list">
+                <dt class="item">Яблоко</dt>
+                <div class="line"></div>
+                <dd class="item  item--right">4 шт.</dd>
+              </div>
+              <div class="list">
+                <dt class="item">Вишня</dt>
+                <div class="line"></div>
+                <dd class="item  item--right">12 шт.</dd>
+              </div>
+              <div class="list">
+                <dt class="item">Кокос</dt>
+                <div class="line"></div>
+                <dd class="item  item--right">8 шт.</dd>
+              </div>
+            </dl>
+            <button class="text__button">Состав и пищевая ценность</button>
+            <button class="text__button">Условия и срок хранения</button>
+          </div>!-->
+
+          <div class="text__advantages">
+            <p class="text__advantage  text__advantage--delivery">Доставка от 400 руб. в день заказа <br> с 12 до 17 или
+              с 17 до 21. <br> Бесплатно при заказе на сумму от 2000 руб
+            </p>
+            <p class="text__advantage  text__advantage--pickup">Самовывоз бесплатно. <br> Через 3 часа после оплаты
+              заказа
+            </p>
+            <p class="text__advantage  text__advantage--anonymous">Можем преподнести как анонимный подарок:)</p>
+          </div>
+        </section>
+
+      </div>
+
+      <section class="description">
+        <h2 class="visually-hidden">Характеристики набора "Сердце"</h2>
+        <ul class="description__list">
+          <li class="description__item  description__item--active">Описание</li>
+          <li class="description__item">Состав и пищевая ценность</li>
+          <li class="description__item">Условия и срок хранения </li>
+        </ul>
+        <div class="descripion__content">
+          <p class="description__text">Текстовая информация и таблички. <br> Для примера рыба-текст</p>
+          <p class="description__text">Банальные, но неопровержимые выводы, а также представители современных социальных
+            резервов смешаны с не
+            уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.
+            Сложно сказать, почему активно развивающиеся страны третьего мира неоднозначны и будут указаны как
+            претенденты на роль ключевых факторов. Являясь всего лишь частью общей картины, диаграммы связей призывают
+            нас к новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы.</p>
+        </div>
+      </section>
+
+      <section class="additionally">
+        <h2 class="additionally__caption">Вам могут понравиться</h2>
+        <ul class="additionally__list">
+          <li class="additionally__item">
+            <div class="additionally__container">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="source/img/additionally-photo-1-desktop.jpg 1x">
+                <source media="(min-width: 768px)" srcset="source/img/additionally-photo-1-tablet.jpg 1x">
+                <img class="additionally__image" src="source/img/additionally-photo-1.jpg" alt="" width="124"
+                  height="98">
+              </picture>
+              <h3 class="additionally__title">1 макарон и 1 эклер</h3>
+              <p class="additionally__text">промо-набор</p>
+            </div>
+            <div class="additionally__buy">
+              <div class="additionally__costs">
+                <p class="additionally__price  additionally__price--last"><s> 160 руб</s></p>
+                <p class="additionally__price">90 руб</p>
+              </div>
+              <button class="additionally__basket  additionally__basket--special"><span class="additionally__span"> В
+                  корзину</span></button>
+            </div>
+          </li>
+          <li class="additionally__item">
+            <div class="additionally__container">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="source/img/additionally-photo-2-desktop.jpg 1x">
+                <source media="(min-width: 768px)" srcset="source/img/additionally-photo-2-tablet.jpg 1x">
+                <img class="additionally__image" src="source/img/additionally-photo-2.jpg" alt="" width="124"
+                  height="98">
+              </picture>
+              <h3 class="additionally__title">Всего понемногу</h3>
+              <p class="additionally__text">3 эклера, 4 трубочки, 6 макарун. Вкусы: клубника - базилик, кокос, голубой
+                сыр, пармезан</p>
+            </div>
+            <div class="additionally__buy">
+              <p class="additionally__price">750 руб</p>
+              <button class="additionally__basket"><span class="additionally__span"> В корзину</span></button>
+            </div>
+          </li>
+          <li class="additionally__item  additionally__item--disabled">
+            <div class="additionally__container">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="source/img/additionally-photo-3-desktop.jpg 1x">
+                <source media="(min-width: 768px)" srcset="source/img/additionally-photo-3-tablet.jpg 1x">
+                <img class="additionally__image" src="source/img/additionally-photo-3.jpg" alt="" width="124"
+                  height="98">
+              </picture>
+              <h3 class="additionally__title">Ещё побольше</h3>
+              <p class="additionally__text">3 эклера, 4 трубочки, 6 макарун. Вкусы: клубника - базилик, кокос, голубой
+                сыр, пармезан</p>
+            </div>
+            <div class="additionally__buy">
+              <p class="additionally__price">3900 руб</p>
+              <button class="additionally__basket"><span class="additionally__span"> В корзину</span></button>
+            </div>
+          </li>
+          <li class="additionally__item  additionally__item--disabled">
+            <div class="additionally__container">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="source/img/additionally-photo-4-desktop.jpg 1x">
+                <source media="(min-width: 768px)" srcset="source/img/additionally-photo-4-tablet.jpg 1x">
+                <img class="additionally__image" src="source/img/additionally-photo-4.jpg" alt="" width="124"
+                  height="98">
+              </picture>
+              <h3 class="additionally__title">Ещё побольше</h3>
+              <p class="additionally__text">3 эклера, 4 трубочки, 6 макарун. Вкусы: клубника - базилик, кокос, голубой
+                сыр, пармезан</p>
+            </div>
+            <div class="additionally__buy">
+              <p class="additionally__price">3900 руб</p>
+              <button class="additionally__basket"><span class="additionally__span"> В корзину</span></button>
+            </div>
+          </li>
+        </ul>
+        <div class="additionally__slider">
+          <button class="additionally__button  additionally__button--active"></button>
+          <button class="additionally__button"></button>
+          <button class="additionally__button"></button>
+        </div>
+        <a class="additionally__link" href="">Все готовые наборы</a>
+      </section>
+
+    </section>
+
+
+  </main>
+
+  <footer class="page-footer">
+
+    <section class="mobile-footer container">
+      <ul class="mobile-footer__list">
+        <li class="mobile-footer__item  mobile-footer__item--love">Готовим вручную и с любовью</li>
+        <li class="mobile-footer__item  mobile-footer__item--delivery">Доставим в день заказа</li>
+        <li class="mobile-footer__item  mobile-footer__item--nut">100% <br class="mobile-footer__absence"> миндальная
+          мука и натуральные ингредиенты
+        </li>
+      </ul>
+      <div class="mobile-footer__column">
+        <p class="mobile-footer__copyright">&#169;2021 Макароншоп <br> ООО "Квантум", Санкт-Петербург, улица Маршала
+          Тухачевского, 22</p>
+        <div class="mobile-footer__contacts">
+          <a class="mobile-footer__phone" href="tel:8123098288">+7 (812) 309 82 88</a>
+          <p class="mobile-footer__time">с 9:00 до 21:00</p>
+        </div>
+      </div>
+      <div class="mobile-footer__social">
+        <a class="mobile-footer__icon" href="https://www.instagram.com/"><span class="visually-hidden">Мы в
+            Инстаграм</span>
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="17" cy="17.0001" r="17" fill="white" />
+            <path
+              d="M20.4273 9.35071H13.5718C11.2437 9.35071 9.34961 11.2449 9.34961 13.573V20.4285C9.34961 22.7566 11.2437 24.6507 13.5718 24.6507H20.4273C22.7555 24.6507 24.6496 22.7566 24.6496 20.4285V13.573C24.6497 11.2449 22.7555 9.35071 20.4273 9.35071ZM23.2922 20.4285C23.2922 22.0081 22.007 23.2932 20.4274 23.2932H13.5718C11.9922 23.2933 10.7071 22.0081 10.7071 20.4285V13.573C10.7071 11.9934 11.9922 10.7082 13.5718 10.7082H20.4273C22.0069 10.7082 23.2921 11.9934 23.2921 13.573V20.4285H23.2922Z"
+              fill="#292929" />
+            <path
+              d="M17 13.0577C14.8262 13.0577 13.0576 14.8263 13.0576 17.0002C13.0576 19.174 14.8262 20.9424 17 20.9424C19.1739 20.9424 20.9425 19.174 20.9425 17.0002C20.9425 14.8263 19.1739 13.0577 17 13.0577ZM17 19.5848C15.5748 19.5848 14.4151 18.4253 14.4151 17.0001C14.4151 15.5747 15.5747 14.4151 17 14.4151C18.4254 14.4151 19.585 15.5747 19.585 17.0001C19.585 18.4253 18.4253 19.5848 17 19.5848Z"
+              fill="#292929" />
+            <path
+              d="M21.1078 11.9073C20.8463 11.9073 20.5893 12.0132 20.4046 12.1988C20.219 12.3834 20.1123 12.6404 20.1123 12.9028C20.1123 13.1645 20.2191 13.4214 20.4046 13.6069C20.5892 13.7915 20.8463 13.8983 21.1078 13.8983C21.3702 13.8983 21.6264 13.7915 21.8119 13.6069C21.9974 13.4214 22.1033 13.1644 22.1033 12.9028C22.1033 12.6404 21.9974 12.3834 21.8119 12.1988C21.6273 12.0132 21.3702 11.9073 21.1078 11.9073Z"
+              fill="#292929" />
+          </svg>
+        </a>
+        <a class="mobile-footer__icon" href="facebook.com"><span class="visually-hidden">Мы на Фейсбук</span>
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="17" cy="17.0001" r="17" fill="white" />
+            <path
+              d="M20.0919 16.9861H17.8229V24.6508H14.385V16.9861H12.75V14.2924H14.385V12.5493C14.385 11.3028 15.0272 9.35083 17.8535 9.35083L20.4 9.36065V11.9753H18.5523C18.2493 11.9753 17.8231 12.115 17.8231 12.7096V14.2949H20.3923L20.0919 16.9861Z"
+              fill="#292929" />
+          </svg>
+        </a>
+        <a class="mobile-footer__icon" href="https://vk.com"><span class="visually-hidden">Мы Вконтакте</span>
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="17" cy="17" r="17" fill="white" />
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M16.7996 21.9861H17.9173C17.9173 21.9861 18.255 21.9509 18.4274 21.7744C18.586 21.6124 18.5809 21.3082 18.5809 21.3082C18.5809 21.3082 18.5591 19.8842 19.2552 19.6745C19.9414 19.4679 20.8226 21.0508 21.7565 21.6594C22.4628 22.1201 22.9995 22.0191 22.9995 22.0191L25.4967 21.9861C25.4967 21.9861 26.8031 21.9096 26.1837 20.9344C26.1329 20.8546 25.823 20.2129 24.3269 18.8945C22.7611 17.5145 22.9708 17.7377 24.857 15.3507C26.0057 13.8969 26.465 13.0094 26.3216 12.6293C26.1847 12.2673 25.3399 12.3629 25.3399 12.3629L22.528 12.3796C22.528 12.3796 22.3196 12.3526 22.165 12.4403C22.014 12.5264 21.9167 12.7269 21.9167 12.7269C21.9167 12.7269 21.4717 13.8519 20.8782 14.8086C19.6261 16.8273 19.1255 16.9338 18.9209 16.8085C18.4449 16.5163 18.5637 15.6348 18.5637 15.0086C18.5637 13.0523 18.8762 12.2366 17.9552 12.0255C17.6495 11.9553 17.4246 11.9091 16.6429 11.9016C15.6397 11.8917 14.7905 11.9045 14.3097 12.1282C13.9898 12.2769 13.743 12.6083 13.8933 12.6274C14.0791 12.651 14.5001 12.7351 14.7232 13.0236C15.0113 13.3958 15.0012 14.2317 15.0012 14.2317C15.0012 14.2317 15.1667 16.5347 14.6145 16.8208C14.2355 17.017 13.7156 16.6164 12.5994 14.7849C12.0274 13.8468 11.5956 12.8098 11.5956 12.8098C11.5956 12.8098 11.5123 12.616 11.3638 12.5124C11.1836 12.3868 10.9317 12.3468 10.9317 12.3468L8.25979 12.3634C8.25979 12.3634 7.85868 12.374 7.71144 12.5396C7.58044 12.6869 7.70103 12.9916 7.70103 12.9916C7.70103 12.9916 9.79288 17.6384 12.1614 19.9801C14.3333 22.1271 16.7996 21.9861 16.7996 21.9861Z"
+              fill="#292929" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <div class="footer-desktop__container container">
+      <div class="footer-desktop__column--1">
+        <section class="footer-desktop__features">
+          <p class="footer-desktop__text  footer-desktop__text--love">Готовим вручную <br> и с любовью</p>
+          <p class="footer-desktop__text  footer-desktop__text--delivery">Доставим <br> в день заказа</p>
+          <p class="footer-desktop__text  footer-desktop__text--nut">100% <br> миндальная мука <br> и натуральные <br>
+            ингредиенты</p>
+        </section>
+
+        <p class="footer-desktop__copyright">&#169;2021 Макароншоп <br> ООО "Квантум", Санкт-Петербург, улица Маршала
+          Тухачевского, <br> дом 22</p>
+      </div>
+
+      <section class="footer-desktop__information">
+        <ul class="footer-desktop__points">
+          <li class="footer-desktop__caption">Информация</li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">О компании</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Гарантии вкуса и <br> свежести</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Доставка и оплата</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Контакты</a>
+          </li>
+        </ul>
+        <ul class="footer-desktop__points">
+          <li class="footer-desktop__caption">Каталог</li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Каталог десертов</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Готовые наборы</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Собрать свой набор</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Акции</a>
+          </li>
+        </ul>
+        <ul class="footer-desktop__points">
+          <li class="footer-desktop__caption">Для бизнеса</li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Корпоративные подарки</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Для юридических лиц</a>
+          </li>
+          <li>
+            <a class="footer-desktop__point" href="blank.html">Оповикам</a>
+          </li>
+        </ul>
+      </section>
+
+      <div class="footer-desktop__column--2">
+        <section class="footer-desktop__contacts">
+          <a class="footer-desktop__phone" href="tel:8123098288">+7 (812) 309 82 88</a>
+          <p class="footer-desktop__time">с 9:00 до 21:00</p>
+        </section>
+
+        <section class="footer-desktop__social">
+          <a class="footer-desktop__icon" href="https://www.instagram.com/"><span class="visually-hidden">Мы в
+              Инстаграм</span>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" />
+              <path
+                d="M24.4806 10H15.5192C12.4759 10 10 12.476 10 15.5193V24.4807C10 27.5241 12.4759 30 15.5192 30H24.4806C27.5241 30 30 27.524 30 24.4807V15.5193C30.0001 12.476 27.5241 10 24.4806 10ZM28.2256 24.4807C28.2256 26.5456 26.5456 28.2255 24.4807 28.2255H15.5192C13.4544 28.2256 11.7745 26.5456 11.7745 24.4807V15.5193C11.7745 13.4545 13.4544 11.7745 15.5192 11.7745H24.4806C26.5455 11.7745 28.2255 13.4545 28.2255 15.5193V24.4807H28.2256Z"
+                fill="#292929" />
+              <path
+                d="M20.0002 14.8467C17.1585 14.8467 14.8467 17.1585 14.8467 20.0002C14.8467 22.8417 17.1585 25.1534 20.0002 25.1534C22.8419 25.1534 25.1537 22.8417 25.1537 20.0002C25.1537 17.1585 22.8419 14.8467 20.0002 14.8467ZM20.0002 23.3788C18.1371 23.3788 16.6212 21.8632 16.6212 20.0001C16.6212 18.1368 18.137 16.6211 20.0002 16.6211C21.8634 16.6211 23.3792 18.1368 23.3792 20.0001C23.3792 21.8632 21.8633 23.3788 20.0002 23.3788Z"
+                fill="#292929" />
+              <path
+                d="M25.3697 13.3418C25.0278 13.3418 24.6919 13.4802 24.4505 13.7227C24.2078 13.9641 24.0684 14.3 24.0684 14.6431C24.0684 14.9851 24.208 15.321 24.4505 15.5635C24.6918 15.8048 25.0278 15.9444 25.3697 15.9444C25.7127 15.9444 26.0475 15.8048 26.29 15.5635C26.5325 15.321 26.671 14.985 26.671 14.6431C26.671 14.3 26.5325 13.9641 26.29 13.7227C26.0487 13.4802 25.7127 13.3418 25.3697 13.3418Z"
+                fill="#292929" />
+            </svg>
+          </a>
+          <a class="footer-desktop__icon" href="facebook.com"><span class="visually-hidden">Мы на Фейсбук</span>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" />
+              <path
+                d="M23.6376 19.9827H20.9681V29H16.9236V19.9827H15V16.8136H16.9236V14.7629C16.9236 13.2964 17.6791 11 21.0041 11L24 11.0116V14.0877H21.8263C21.4697 14.0877 20.9684 14.2519 20.9684 14.9515V16.8166H23.9909L23.6376 19.9827Z"
+                fill="#292929" />
+            </svg>
+          </a>
+          <a class="footer-desktop__icon" href="https://vk.com"><span class="visually-hidden">Мы Вконтакте</span>
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="20" fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M19.7637 25.8668H21.0788C21.0788 25.8668 21.476 25.8254 21.6788 25.6178C21.8654 25.4272 21.8595 25.0694 21.8595 25.0694C21.8595 25.0694 21.8338 23.394 22.6527 23.1473C23.46 22.9042 24.4967 24.7665 25.5955 25.4825C26.4264 26.0244 27.0577 25.9056 27.0577 25.9056L29.9957 25.8668C29.9957 25.8668 31.5326 25.7769 30.8039 24.6295C30.7442 24.5357 30.3795 23.7808 28.6195 22.2296C26.7773 20.6061 27.024 20.8687 29.2431 18.0604C30.5945 16.3502 31.1348 15.306 30.9661 14.8588C30.8051 14.4329 29.8111 14.5455 29.8111 14.5455L26.5031 14.565C26.5031 14.565 26.2579 14.5333 26.076 14.6365C25.8983 14.7377 25.7839 14.9737 25.7839 14.9737C25.7839 14.9737 25.2604 16.2971 24.5621 17.4227C23.0891 19.7976 22.5001 19.923 22.2594 19.7755C21.6994 19.4318 21.8392 18.3948 21.8392 17.658C21.8392 15.3565 22.2068 14.3969 21.1233 14.1485C20.7637 14.0659 20.499 14.0115 19.5795 14.0027C18.3991 13.9911 17.4001 14.0061 16.8344 14.2693C16.4581 14.4442 16.1678 14.8342 16.3446 14.8566C16.5632 14.8844 17.0584 14.9833 17.321 15.3228C17.6599 15.7606 17.648 16.7441 17.648 16.7441C17.648 16.7441 17.8427 19.4534 17.1931 19.79C16.7472 20.0208 16.1355 19.5495 14.8223 17.3949C14.1494 16.2912 13.6414 15.0712 13.6414 15.0712C13.6414 15.0712 13.5434 14.8432 13.3687 14.7213C13.1567 14.5736 12.8604 14.5265 12.8604 14.5265L9.71694 14.546C9.71694 14.546 9.24505 14.5585 9.07182 14.7533C8.91771 14.9266 9.05957 15.285 9.05957 15.285C9.05957 15.285 11.5206 20.7519 14.3071 23.5068C16.8622 26.0327 19.7637 25.8668 19.7637 25.8668Z"
+                fill="#292929" />
+            </svg>
+            </svg>
+          </a>
+        </section>
+      </div>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

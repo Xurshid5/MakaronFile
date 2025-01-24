@@ -1,0 +1,270 @@
+.additionally {
+	text-align: center;
+}
+
+.additionally__caption {
+	font-family: "Montserrat";
+	font-size: 18px;
+	margin: 0;
+	margin-bottom: 19px;
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 36px;
+	}
+}
+
+.additionally__list {
+	display: flex;
+	margin-bottom: 17px;
+
+	@media (min-width: $tablet-width) {
+		margin-bottom: 30px;
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 35px;
+	}
+}
+
+.additionally__item {
+	width: 140px;
+	margin-right: 8px;
+	background-color: $white;
+	border: 1px solid $decoration;
+	border-radius: 5px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	&:nth-child(even) {
+		margin-right: 0;
+	}
+
+	@media (min-width: $tablet-width) {
+		margin-right: 44px;
+		width: 149px;
+
+		&:nth-child(2) {
+			margin-right: 44px;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-right: 30px;
+		width: 271px;
+	}
+}
+
+.additionally__container {
+	padding: 7px 7px 0 7px;
+
+	@media (min-width: $desktop-width) {
+		padding: 0;
+	}
+}
+
+.additionally__item--disabled {
+	display: none;
+
+	@media (min-width: $tablet-width) {
+		display: block;
+	}
+}
+
+.additionally__image {
+	width: 124px;
+	height: 98px;
+	margin-bottom: 6px;
+
+	@media (min-width: $tablet-width) {
+		width: 136px;
+		height: 107px;
+		margin-bottom: 10px;
+	}
+
+	@media (min-width: $desktop-width) {
+		width: 271px;
+		height: 220px;
+		border-radius: 5px 5px 0 0;
+		margin-bottom: 22px;
+	}
+}
+
+.additionally__title {
+	font-family: "Montserrat";
+	font-size: 12px;
+	margin: 0;
+	margin-bottom: 4px;
+	text-align: left;
+	padding-left: 5px;
+
+	@media (min-width: $desktop-width) {
+		padding-left: 21px;
+		font-size: 18px;
+	}
+}
+
+.additionally__text {
+	font-size: 10px;
+	margin: 0;
+	margin-bottom: 17px;
+	text-align: left;
+	padding-left: 5px;
+
+	@media (min-width: $desktop-width) {
+		padding-left: 21px;
+		font-size: 14px;
+	}
+}
+
+.additionally__buy {
+	border-top: 1px solid $decoration;
+	display: flex;
+	position: relative;
+}
+
+.additionally__price {
+	font-weight: 600;
+	font-size: 14px;
+	color: $accent-pink;
+	margin: 0;
+	width: 95px;
+	padding-left: 12px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	text-align: left;
+
+	@media (min-width: $tablet-width) {
+		text-align: left;
+		width: 83px;
+	}
+
+	@media (min-width: $desktop-width) {
+		font-size: 18px;
+		width: 125px;
+		padding-left: 21px;
+		padding-top: 13px;
+		padding-bottom: 11px;
+	}
+}
+
+.additionally__price--last {
+	display: none;
+
+	@media (min-width: $tablet-width) {
+		display: block;
+		font-size: 14px;
+		color: #969696;
+		padding-bottom: 0;
+	}
+}
+
+.additionally__basket {
+	background-color: transparent;
+	border: none;
+	padding: 8px 16px;
+	border-left: 1px solid $decoration;
+
+	&::before {
+		content: "";
+		background-image: url(../img/basket-empty.svg);
+		width: 13px;
+		height: 17px;
+		position: absolute;
+		right: 15px;
+		top: 8px;
+	}
+
+	@media (min-width: $tablet-width) {
+		&::before {
+			right: 22px;
+			top: 6px;
+		}
+	}
+
+	@media (min-width: $desktop-width) {
+		font-family: "Montserrat";
+		font-size: 18px;
+		font-size: 14px;
+		padding: 15px 20px 18px 43px;
+		&::before {
+			background-image: url(../img/basket-empty-desktop.svg);
+			width: 15px;
+			height: 21px;
+			right: 108px;
+			top: 10px;
+		}
+	}
+}
+
+.additionally__basket--special {
+	@media (min-width: $tablet-width) {
+		&::before {
+			top: 20px;
+		}
+	}
+
+	@media (min-width: $desktop-width) {
+		&::before {
+			top: 23px;
+		}
+	}
+}
+
+.additionally__span {
+	display: none;
+
+	@media (min-width: $desktop-width) {
+		display: block;
+	}
+}
+
+.additionally__slider {
+	margin-bottom: 48px;
+	@media (min-width: $tablet-width) {
+		display: none;
+	}
+}
+
+.additionally__button {
+	background-color: $white;
+	outline: 1px solid #e5e5e5;
+	outline-offset: -1px;
+	border: none;
+	width: 12px;
+	height: 12px;
+	margin-right: 7px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.additionally__button--active {
+	background-color: $accent-pink;
+	outline: none;
+}
+
+.additionally__link {
+	display: none;
+
+	@media (min-width: $tablet-width) {
+		font-family: "Montserrat";
+		font-size: 14px;
+		border: 1px solid $accent-pink;
+		color: $text;
+		padding: 16px 25px;
+		display: inline-block;
+		text-align: center;
+		margin-bottom: 80px;
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 87px;
+	}
+}

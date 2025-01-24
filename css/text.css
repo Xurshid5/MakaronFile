@@ -1,0 +1,9 @@
+.text {
+  outline: 5px solid rgba(5, 48, 238, 0.7);
+  outline-offset: -5px;
+}
+
+.text__buy {
+  outline: 5px solid rgba(168, 238, 5, 0.7);
+  outline-offset: -5px;
+}

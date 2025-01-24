@@ -1,0 +1,152 @@
+.main-display {
+	text-align: center;
+	position: relative;
+
+	@media (min-width: $desktop-width) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+.main-display__description {
+	@media (min-width: $desktop-width) {
+		padding-top: 137px;
+		padding-right: 130px;
+	}
+}
+
+.main-display__title {
+	font-family: "Montserrat";
+	font-weight: 600;
+	margin: 0;
+	position: relative;
+}
+
+.main-display__title--copyright {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin: 0;
+	margin-bottom: 2px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 20px;
+	}
+
+	@media (min-width: $desktop-width) {
+		font-size: 22px;
+		margin-bottom: 4px;
+	}
+}
+
+.main-display__title--since {
+	font-size: 14px;
+	margin: 0;
+	margin-bottom: 42px;
+	position: relative;
+	display: inline-block;
+
+	&::before {
+		display: block;
+		content: "";
+		width: 20px;
+		height: 2px;
+		background-color: $text;
+		position: absolute;
+		left: -30px;
+		top: 8px;
+	}
+
+	&::after {
+		display: block;
+		content: "";
+		width: 20px;
+		height: 2px;
+		background-color: $text;
+		position: absolute;
+		right: -30px;
+		bottom: 6px;
+	}
+
+	@media (min-width: $tablet-width) {
+		font-size: 16px;
+		margin-bottom: 20px;
+
+		&::before {
+			left: -30px;
+			top: 9px;
+		}
+
+		&::after {
+			right: -30px;
+			bottom: 9px;
+		}
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 27px;
+		&::before {
+			left: -39px;
+			width: 29px;
+		}
+
+		&::after {
+			right: -39px;
+			width: 29px;
+		}
+	}
+}
+
+.main-display__title--caption {
+	font-size: 24px;
+	margin-bottom: 13px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 42px;
+		margin-bottom: 15px;
+	}
+}
+
+.main-display__text {
+	font-size: 14px;
+	margin: 0;
+	padding: 0 30px;
+
+	@media (min-width: $desktop-width) {
+		font-size: 18px;
+		padding: 0;
+	}
+}
+
+.main-display__image {
+	bottom: 32px;
+	left: 6px;
+
+	@media (min-width: $tablet-width) {
+		display: block;
+		width: 655px;
+		height: 460px;
+	}
+
+	@media (min-width: $desktop-width) {
+		display: none;
+	}
+}
+
+.main-display__image--tablet {
+	display: none;
+
+	@media (min-width: $tablet-width) {
+		display: none;
+		width: 655px;
+		height: 460px;
+	}
+
+	@media (min-width: $desktop-width) {
+		display: block;
+		width: 655px;
+		height: 442px;
+		position: absolute;
+		top: 50px;
+		left: 100px;
+	}
+}

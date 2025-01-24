@@ -1,0 +1,45 @@
+// Normolize------------------------------------------------------------------------------
+@import "./utils/normalize.scss";
+
+// Fonts----------------------------------------------------------------------------------
+@import "./utils/fonts.scss";
+
+// Variables------------------------------------------------------------------------------
+@import "./utils/variables.scss";
+
+// Mixins---------------------------------------------------------------------------------
+@import "./utils/mixins.scss";
+
+// Common---------------------------------------------------------------------------------
+@import "./utils/common.scss";
+
+// Container
+@import "./utils/container.scss";
+
+// Blocks---------------------------------------------------------------------------------
+
+@import "./blocks/page.scss";
+@import "./blocks/promo.scss";
+@import "./blocks/main-nav.scss";
+@import "./blocks/main-display.scss";
+@import "./blocks/catalog.scss";
+@import "./blocks/discount.scss";
+@import "./blocks/holidays.scss";
+@import "./blocks/set.scss";
+@import "./blocks/instagram.scss";
+@import "./blocks/advantages.scss";
+@import "./blocks/mobile-nav.scss";
+@import "./blocks/mobile-footer.scss";
+@import "./blocks/footer-desktop.scss";
+@import "./blocks/bread-nav.scss";
+@import "./blocks/product.scss";
+@import "./blocks/images.scss";
+@import "./blocks/text.scss";
+@import "./blocks/description.scss";
+@import "./blocks/additionally.scss";
+
+//header
+@import "./blocks/page-header.scss";
+
+//footer
+@import "./blocks/page-footer.scss";

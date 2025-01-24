@@ -1,0 +1,9 @@
+.product {
+  outline: 5px solid rgba(255, 51, 0, 0.7);
+  outline-offset: -5px;
+}
+
+.product__caption {
+  font-family: "Montserrat";
+  font-size: 18px;
+}

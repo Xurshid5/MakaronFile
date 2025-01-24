@@ -1,0 +1,43 @@
+.bread-nav {
+	font-size: 9px;
+	margin-bottom: 16px;
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 36px;
+	}
+}
+
+.bread__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.bread__item {
+	margin-right: 10px;
+	position: relative;
+
+	&::after {
+		content: "";
+		background-image: url("../img//bread-arrow.svg");
+		background-repeat: no-repeat;
+		width: 6px;
+		height: 5px;
+		position: absolute;
+		top: 2px;
+		right: -10px;
+	}
+
+	&:last-child {
+		&::after {
+			display: none;
+		}
+	}
+}
+
+.bread__link {
+	color: $text;
+}
+
+.bread__link--active {
+	color: $accent-blue;
+}

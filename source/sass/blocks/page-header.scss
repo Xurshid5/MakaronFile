@@ -1,0 +1,25 @@
+.page-header {
+	background-color: $nav-background;
+	margin-bottom: 65px;
+	background-color: $nav-background;
+
+	@media (min-width: $tablet-width) {
+		margin-bottom: 30px;
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 0;
+	}
+}
+
+.page-header--product {
+	margin-bottom: 11px;
+
+	@media (min-width: $tablet-width) {
+		margin-bottom: 20px;
+	}
+
+	@media (min-width: $desktop-width) {
+		margin-bottom: 34px;
+	}
+}

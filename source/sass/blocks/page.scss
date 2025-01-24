@@ -1,0 +1,21 @@
+.page__body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  // Grid сетка страницы
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+  background-color: $background;
+}
+
+.page__header {
+  margin-bottom: 0;
+}
+
+.page__main {
+  margin-bottom: 0;
+}
+
+.page__footer {
+  margin-bottom: 0;
+}

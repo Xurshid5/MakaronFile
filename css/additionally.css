@@ -1,0 +1,23 @@
+.additionally {
+  outline: 5px solid rgba(0, 78, 7, 0.7);
+  outline-offset: -5px;
+}
+
+.additionally__caption {
+  font-family: "Montserrat";
+  font-size: 18px;
+}
+
+.additionally__title {
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+
+.additionally__text {
+  font-size: 10px;
+}
+
+.additionally__price {
+  font-weight: 600;
+  font-size: 14px;
+}

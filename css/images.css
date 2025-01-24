@@ -1,0 +1,18 @@
+.images {
+  outline: 5px solid rgba(238, 234, 5, 0.7);
+  outline-offset: -5px;
+}
+
+.product__text {
+  font-size: 14px;
+}
+
+.images__photo {
+  width: 288px;
+  height: 227px;
+}
+
+.images__photo--add {
+  width: 36px;
+  height: 36px;
+}
